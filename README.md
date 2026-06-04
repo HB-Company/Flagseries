@@ -18,4 +18,9 @@ Aktuell erstellt der Button eine Bestell-E-Mail. Für echte Online-Zahlung brauc
 
 ## Deployment
 Dateien per FTP/SFTP in den Webspace deiner Domain laden. Startdatei ist `index.html`.
-# Flagseries
+
+
+Update: Die Hauptseite enthält jetzt einen automatischen Bildwechsel im Hero-Bereich. Die Länder-Boxen wechseln alle 3,5 Sekunden. Beim Klick auf eine Produktkarte oder einen Punkt stoppt der alte Timer und startet neu.
+
+
+Update: Hero-Slider jetzt schneller (2,2 Sekunden) mit Fade/Zoom/Gold-Sweep Effekt.
