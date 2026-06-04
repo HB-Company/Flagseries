@@ -6,7 +6,7 @@ const products = [
   { id:'morocco', name:'Marokko Box', country:'Marokko', flag:'🇲🇦', code:'MAR', img:'assets/images/d250807c-a693-442f-86b3-e5794383e08e.png' }
 ];
 
-const BOX_PRICE = 39;
+const BOX_PRICE = 39.99;
 const DISCOUNT_MIN_BOXES = 10;
 const DISCOUNT_RATE = 0.10;
 const fmt = n => new Intl.NumberFormat('de-DE', { style:'currency', currency:'EUR' }).format(n);
