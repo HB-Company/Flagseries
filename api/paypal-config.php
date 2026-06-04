@@ -5,7 +5,7 @@
 
 const PAYPAL_MODE = 'live'; // live = echte Zahlungen, sandbox = Testmodus
 const PAYPAL_CLIENT_ID = 'ARLJa6vHZIygg8-TBCuQFKgeX3xj4HOI_p_JlcBIa9rQgpNofpo72BFAbbcUQ9bGHe8-4D7yItnsuW8Z';
-const PAYPAL_CLIENT_SECRET = 'EAtopJRd-dZHRJ8kKIO_4p8OmZ9Tv-nuZu8btNiBUjM_NJmGWsptjj6AX766cEwD-rOn2Uwx7rxRidSI';
+const PAYPAL_CLIENT_SECRET = 'HIER_NEUEN_SECRET_EINTRAGEN';
 const PAYPAL_CURRENCY = 'EUR';
 
 function paypal_base_url(): string {
