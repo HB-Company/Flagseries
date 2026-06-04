@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FLAG SERIES Feuerzeuge | 50er Boxen</title>
+  <meta name="description" content="FLAG SERIES Feuerzeuge in Länder-Editionen. 50 Stück pro Box, 39 € inkl. MwSt. Winddicht, kindersicher und hochwertig bedruckt." />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home"><span>FS</span> FLAG SERIES</a>
+    <nav>
+      <a href="#produkt">Produkt</a>
+      <a href="#bestellen">Bestellen</a>
+      <a href="#technik">Technik</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Feuer deine Mannschaft an</p>
+        <h1>FLAG SERIES Feuerzeuge als 50er Box</h1>
+        <p>Ein Produkt, mehrere Länder-Editionen: Deutschland, Spanien, Türkei, Brasilien und Marokko. Hochwertiger Digitaldruck, mattes Schwarz und goldenes Metallteil.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#bestellen">Jetzt bestellen</a>
+          <a class="btn" href="#technik">Technik ansehen</a>
+        </div>
+        <div class="price-card"><strong>39,00 €</strong><span>pro 50er Box inkl. 19% MwSt.</span><small>Ab 10 Boxen automatisch 10% Rabatt</small></div>
+      </div>
+      <div class="hero-image"><img id="mainProductImage" src="assets/images/716d3da8-e18d-46c8-8196-9496c499fffb.png" alt="FLAG SERIES Germany Box" /></div>
+    </section>
+
+    <section id="produkt" class="section">
+      <div class="section-head"><p class="eyebrow">Variationen</p><h2>Wähle deine Länder-Box</h2></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section id="bestellen" class="section order-section">
+      <div class="order-card">
+        <h2>Bestellung vorbereiten</h2>
+        <p>Wähle Edition und Menge. Der Gesamtpreis wird automatisch berechnet.</p>
+        <form id="orderForm">
+          <label>Edition<select id="variant"></select></label>
+          <label>Anzahl Boxen<input id="qty" type="number" min="1" value="1" /></label>
+          <div class="summary">
+            <div><span>Zwischensumme</span><strong id="subtotal">39,00 €</strong></div>
+            <div><span>Rabatt</span><strong id="discount">0,00 €</strong></div>
+            <div class="total"><span>Gesamt inkl. MwSt.</span><strong id="total">39,00 €</strong></div>
+          </div>
+          <button class="btn primary" type="button" id="paypalBtn">Mit PayPal bestellen</button>
+          <button class="btn" type="button" id="bankBtn">Banküberweisung anfragen</button>
+          <p class="note">Demo-Shop: PayPal/Bankzahlung muss im Backend noch mit echten Zugangsdaten verbunden werden.</p>
+        </form>
+      </div>
+      <div class="cart-note">
+        <h3>Lieferumfang</h3>
+        <ul>
+          <li>1 Box = 50 Feuerzeuge</li>
+          <li>Preis: 39,00 € inkl. 19% MwSt.</li>
+          <li>Ab 10 Boxen: 10% Rabatt</li>
+          <li>Kindersicher nach ISO 9994 / EN 13869</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="technik" class="section features">
+      <div><span>🔥</span><h3>Starke Leistung</h3><p>Zuverlässige Flamme für den Alltag.</p></div>
+      <div><span>💨</span><h3>Winddicht</h3><p>Zuverlässige Flamme, auch bei Wind.</p></div>
+      <div><span>🔒</span><h3>Kindersicher</h3><p>Entspricht ISO 9994 und EN 13869.</p></div>
+      <div><span>♻️</span><h3>Recyclebar</h3><p>Für eine bessere Umwelt.</p></div>
+    </section>
+
+    <section class="section gallery">
+      <img src="assets/images/756c697a-07da-415a-879f-4c753465d1bf.png" alt="Flyer Flag Series" />
+      <img src="assets/images/ef3b441f-f091-4dff-9da5-61089a847828.png" alt="Flyercard Spezifikationen" />
+    </section>
+  </main>
+
+  <footer id="kontakt">
+    <div><strong>FLAG SERIES</strong><p>www.flagseries.de</p></div>
+    <div class="footer-links"><a href="legal/impressum.html">Impressum</a><a href="legal/datenschutz.html">Datenschutz</a><a href="legal/agb.html">AGB</a><a href="legal/widerruf.html">Widerruf</a></div>
+  </footer>
+</body>
+</html>
