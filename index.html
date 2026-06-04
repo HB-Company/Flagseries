@@ -6,6 +6,7 @@
   <title>FLAG SERIES Feuerzeuge | 50er Boxen</title>
   <meta name="description" content="FLAG SERIES Feuerzeuge in Länder-Editionen. 50 Stück pro Box, 39 € inkl. MwSt. Winddicht, kindersicher und hochwertig bedruckt." />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://www.paypal.com/sdk/js?client-id=ARLJa6vHZIygg8-TBCuQFKgeX3xj4HOI_p_JlcBIa9rQgpNofpo72BFAbbcUQ9bGHe8-4D7yItnsuW8Z&currency=EUR&components=buttons"></script>
   <script defer src="js/app.js"></script>
 </head>
 <body>
@@ -51,9 +52,9 @@
             <div><span>Rabatt</span><strong id="discount">0,00 €</strong></div>
             <div class="total"><span>Gesamt inkl. MwSt.</span><strong id="total">39,00 €</strong></div>
           </div>
-          <button class="btn primary" type="button" id="paypalBtn">Mit PayPal bestellen</button>
+          <div id="paypal-button-container" class="paypal-box"></div>
           <button class="btn" type="button" id="bankBtn">Banküberweisung anfragen</button>
-          <p class="note">Demo-Shop: PayPal/Bankzahlung muss im Backend noch mit echten Zugangsdaten verbunden werden.</p>
+          <p id="paymentStatus" class="note">PayPal Checkout ist bereit. Wähle Edition und Menge, dann bezahle sicher mit PayPal.</p>
         </form>
       </div>
       <div class="cart-note">
