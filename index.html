@@ -43,15 +43,19 @@
     <section id="bestellen" class="section order-section">
       <div class="order-card">
         <h2>Bestellung vorbereiten</h2>
-        <p>Wähle Edition und Menge. Der Gesamtpreis wird automatisch berechnet.</p>
+        <p>Wähle pro Länder-Edition die gewünschte Anzahl. Der Rabatt gilt automatisch auf die Gesamtmenge aller Boxen.</p>
         <form id="orderForm">
-          <label>Edition<select id="variant"></select></label>
-          <label>Anzahl Boxen<input id="qty" type="number" min="1" value="1" /></label>
+          <div id="multiVariantList" class="multi-variant-list"></div>
+
           <div class="summary">
-            <div><span>Zwischensumme</span><strong id="subtotal">39,00 €</strong></div>
+            <div><span>Gesamt Boxen</span><strong id="totalBoxes">0</strong></div>
+            <div><span>Zwischensumme</span><strong id="subtotal">0,00 €</strong></div>
             <div><span>Rabatt</span><strong id="discount">0,00 €</strong></div>
-            <div class="total"><span>Gesamt inkl. MwSt.</span><strong id="total">39,00 €</strong></div>
+            <div class="total"><span>Gesamt inkl. MwSt.</span><strong id="total">0,00 €</strong></div>
           </div>
+
+          <div id="cartItems" class="cart-items">Noch keine Box ausgewählt.</div>
+          <p id="discountHint" class="note">Ab 10 Boxen erhältst du automatisch 10% Mengenrabatt.</p>
           <div id="paypal-button-container" class="paypal-box"></div>
           <button class="btn" type="button" id="bankBtn">Banküberweisung anfragen</button>
           <p id="paymentStatus" class="note">PayPal wird geladen ...</p>
@@ -62,7 +66,7 @@
         <ul>
           <li>1 Box = 50 Feuerzeuge</li>
           <li>Preis: 39,00 € inkl. 19% MwSt.</li>
-          <li>Ab 10 Boxen: 10% Rabatt</li>
+          <li>Ab 10 Boxen insgesamt: 10% Rabatt</li>
           <li>Kindersicher nach ISO 9994 / EN 13869</li>
         </ul>
       </div>
